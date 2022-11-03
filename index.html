@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="">
+            <h1 id="title">Monthly Land Surface Temperature</h1>
+            <h3 id="description">1753 - 2015: base temperature 8.66℃</h3>
+        </div>
+        <div id="tooltip"></div>
+        <svg id="canvas"></svg>
+        <svg id="legend">
+            <g>
+                <rect x="10" y="0" width="40" height="40" fill="SteelBlue"></rect>
+                <text x="60" y="20">Variance of -1 or less</text>
+            </g>
+            <g>
+                <rect x="10" y="40" width="40" height="40" fill="LightSteelBlue"></rect>
+                <text x="60" y="60">On or Below Average</text>
+            </g>
+            <g>
+                <rect x="10" y="80" width="40" height="40" fill="Orange"></rect>
+                <text x="60" y="100">Above Average</text>
+            </g>
+            <g>
+                <rect x="10" y="120" width="40" height="40" fill="Red"></rect>
+                <text x="60" y="140">Variance of +1 or more</text>
+            </g>
+        </svg>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="index.js" async defer></script>
+
+    </body>
+</html>

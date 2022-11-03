@@ -1,0 +1,28 @@
+body{
+    color: #B9E0FF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6C4AB6;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#canvas{
+    background-color: #8D72E1;
+}
+#legend{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width:auto;
+}
+text{
+    color: ;
+}
